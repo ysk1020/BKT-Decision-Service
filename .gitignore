@@ -216,3 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project data (raw EdNet files, derived datasets, experiment outputs)
+data/
+results/
