@@ -1,0 +1,13 @@
+# Full dev environment: notebooks (data prep, BKT fitting/eval) + the service itself.
+# For just the service's runtime deps (what the Docker image installs), see requirements-service.txt.
+
+pandas==2.3.3
+numpy==2.2.6
+pyBKT==1.4.3
+scikit-learn==1.7.2
+matplotlib==3.10.9
+ipykernel==7.3.0
+
+fastapi==0.141.1
+uvicorn==0.54.0
+pydantic==2.13.5
